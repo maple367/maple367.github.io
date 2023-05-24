@@ -3,11 +3,7 @@
   <entry>
     <title>Fix Update Time Wrong in Hexo</title>
     <url>/2023/05/15/Fix_Update_Time_Wrong_in_Hexo/</url>
-    <content><![CDATA[<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css"
-/>
-<h1 id="problem"><a class="markdownIt-Anchor" href="#problem"></a> Problem</h1>
+    <content><![CDATA[<h1 id="problem"><a class="markdownIt-Anchor" href="#problem"></a> Problem</h1>
 <p>It is convenient to use <a class="link"   href="https://docs.github.com/en/actions" >GitHub Actions <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> to deploy GitHub Pages. As given by <a class="link"   href="https://hexo.io/docs/github-pages.html" >Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> officially,</p>
 <details class="green" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>Official script </summary>
               <div class='content'>
@@ -35,11 +31,7 @@ So, the complete script for me is:</p>
   <entry>
     <title>Gain and Loss in Waveguides</title>
     <url>/2023/05/15/Gain_and_Loss_in_Waveguides/</url>
-    <content><![CDATA[<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css"
-/>
-<h1 id="gain-and-loss"><a class="markdownIt-Anchor" href="#gain-and-loss"></a> Gain and Loss</h1>
+    <content><![CDATA[<h1 id="gain-and-loss"><a class="markdownIt-Anchor" href="#gain-and-loss"></a> Gain and Loss</h1>
 <p>When light propagates in a gain waveguide, its intensity changes with distance as:</p>
 <p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>I</mi><mo>=</mo><msub><mi>I</mi><mn>0</mn></msub><mi>exp</mi><mo>⁡</mo><mo stretchy="false">(</mo><mi>G</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">I = I_0 \exp(G) 
 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.07847em;">I</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.07847em;">I</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.07847em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mop">exp</span><span class="mopen">(</span><span class="mord mathnormal">G</span><span class="mclose">)</span></span></span></span></span></p>
@@ -91,11 +83,7 @@ However, in P-I-N diode, not all injected electrons or photons participant in lu
   <entry>
     <title>Gitalk</title>
     <url>/2023/05/14/Gitalk/</url>
-    <content><![CDATA[<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css"
-/>
-<h1 id="problem"><a class="markdownIt-Anchor" href="#problem"></a> Problem</h1>
+    <content><![CDATA[<h1 id="problem"><a class="markdownIt-Anchor" href="#problem"></a> Problem</h1>
 <p>Deploy gitalk is very easy in Hexo, but I get in a stupid mistake. After login in GitHub, the web page redirect to home page and raise “mismatch redirect URL”.</p>
 <h1 id="solution"><a class="markdownIt-Anchor" href="#solution"></a> Solution</h1>
 <p>I am inspired by GitHub issues of gitalk (<a class="link"   href="https://github.com/gitalk/gitalk/issues/265#issuecomment-497615374" >here <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>). The URL contain spaces due to my files name contain spaces. I replace spaces with underline, the problem is solved.</p>
@@ -111,11 +99,7 @@ However, in P-I-N diode, not all injected electrons or photons participant in lu
   <entry>
     <title>Multiple Quantum Well</title>
     <url>/2023/05/14/Multiple_Quantum_Well/</url>
-    <content><![CDATA[<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css"
-/>
-<h1 id="multiple-quantum-well"><a class="markdownIt-Anchor" href="#multiple-quantum-well"></a> Multiple Quantum Well</h1>
+    <content><![CDATA[<h1 id="multiple-quantum-well"><a class="markdownIt-Anchor" href="#multiple-quantum-well"></a> Multiple Quantum Well</h1>
 <blockquote>
 <p>A quantum well is a potential well with only discrete energy values.</p>
 </blockquote>
@@ -160,11 +144,7 @@ Due to quantum effect, <strong>in simplified model</strong>, the optical absorpt
   <entry>
     <title>Principle of Laser Devices</title>
     <url>/2023/05/12/Principle_of_Laser_Devices/</url>
-    <content><![CDATA[<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css"
-/>
-<h1 id="introduction-of-laser"><a class="markdownIt-Anchor" href="#introduction-of-laser"></a> Introduction of Laser</h1>
+    <content><![CDATA[<h1 id="introduction-of-laser"><a class="markdownIt-Anchor" href="#introduction-of-laser"></a> Introduction of Laser</h1>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
@@ -227,11 +207,7 @@ Thus, device output power efficiency is:</p>
   <entry>
     <title>RDP Wrapper</title>
     <url>/2023/05/14/RDP_Wrapper/</url>
-    <content><![CDATA[<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css"
-/>
-<h1 id="what-is-rdp-wrapper"><a class="markdownIt-Anchor" href="#what-is-rdp-wrapper"></a> What is RDP Wrapper</h1>
+    <content><![CDATA[<h1 id="what-is-rdp-wrapper"><a class="markdownIt-Anchor" href="#what-is-rdp-wrapper"></a> What is RDP Wrapper</h1>
 <p>Remote Desktop is a convenient tool on Windows. However, if you want to remote link to an other Computer with Home Edition, it is difficult to do so because Microsoft has disabled this feature in this edition (but not delete).</p>
 <blockquote>
 <p>RDP Wrapper works as a layer between Service Control Manager and Terminal Services, so the original <code>termsrv.dll</code> file remains untouched. Also this method is very strong against Windows Update.</p>
