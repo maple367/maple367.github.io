@@ -232,8 +232,9 @@ Thus, device output power efficiency is:</p>
     <title>Three-Dimensional Coupled-Wave Theory in Photonic Crystal</title>
     <url>/2023/05/19/Three_Dimensional_Coupled_Wave_Theory_in_Photonic_Crystal/</url>
     <content><![CDATA[<h1 id="coupled-wave-theory"><a class="markdownIt-Anchor" href="#coupled-wave-theory"></a> Coupled-Wave Theory</h1>
-<p>Photonic crystal surface-emitting lasers can realize  one-chip, ultra-large-area, coherent semiconductor lasers. However, it is difficult to accurately evaluate the characterization of PCSELs by traditional simulation method  such as FDTD or<br />
-The coupled-wave theory (CWT) in PCSELs traces its history back to 2006 (Ref. 1), and is expanded to three dimension by incorporating the surface emission and high-order coupling effects (Ref. 2). 3D-CWT has been fully explained in the doctoral thesis of Yong LIANG (Ref. 3) and been redefined the coupled matrix by Takuya Inoue (Ref. 4).</p>
+<p>Photonic crystal surface-emitting lasers (PCSELs) can realize  one-chip, ultra-large-area, coherent semiconductor lasers. However, it is difficult to accurately evaluate the characterization of PCSELs by traditional simulation method  such as FDTD or FEM etc. because of ultra-large computation. Thus, the coupled-wave theory (CWT), which is a semi-analytic computational method, is proposed by research group of Susumu Noda from Kyoto University.<br />
+The coupled-wave theory in PCSELs traces its history back to 2006 (Ref. 1), and is expanded to three dimension by incorporating the surface emission and high-order coupling effects (Ref. 2). 3D-CWT has been fully explained in the doctoral thesis of Yong LIANG (Ref. 3) and been redefined the coupled matrix by Takuya Inoue (Ref. 4).</p>
+<h1 id="infinite-phonic-crystal"><a class="markdownIt-Anchor" href="#infinite-phonic-crystal"></a> Infinite Phonic Crystal</h1>
 <p><figure class="image-caption"><img  
                      lazyload
                      src="/images/loading.svg"
