@@ -142,6 +142,28 @@ Due to quantum effect, <strong>in simplified model</strong>, the optical absorpt
       </tags>
   </entry>
   <entry>
+    <title> Practical Tools</title>
+    <url>/2023/06/05/Practical_Tools/</url>
+    <content><![CDATA[<h1 id="microsoft-powertoys"><a class="markdownIt-Anchor" href="#microsoft-powertoys"></a> Microsoft PowerToys</h1>
+<blockquote>
+<p>Microsoft PowerToys is a set of practical tools that help power users fine-tune and simplify their Windows experience so they can be more productive.</p>
+</blockquote>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://learn.microsoft.com/zh-cn/windows/images/pt-powerrun-demo.gif"
+                      alt="One of the tools: PowerToys Run" 
+                ><figcaption>One of the tools: PowerToys Run</figcaption></figure><br />
+<a class="link"   href="https://learn.microsoft.com/zh-cn/windows/powertoys/" >Microsoft PowerToys | Microsoft Learn <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+]]></content>
+      <categories>
+        <category>Tools</category>
+      </categories>
+      <tags>
+        <tag>tools</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Principle of Laser Devices</title>
     <url>/2023/05/12/Principle_of_Laser_Devices/</url>
     <content><![CDATA[<h1 id="introduction-of-laser"><a class="markdownIt-Anchor" href="#introduction-of-laser"></a> Introduction of Laser</h1>
