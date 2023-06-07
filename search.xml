@@ -142,6 +142,23 @@ Due to quantum effect, <strong>in simplified model</strong>, the optical absorpt
       </tags>
   </entry>
   <entry>
+    <title>Planar_Waveguide</title>
+    <url>/2023/06/07/Planar_Waveguide/</url>
+    <content><![CDATA[<h1 id="reference"><a class="markdownIt-Anchor" href="#reference"></a> Reference</h1>
+<ol>
+<li><a class="link"   href="https://ww2.mathworks.cn/academia/books/book106720.html" >高等光学仿真（MATLAB版）- 光波导，激光（第3版） <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Optics</category>
+      </categories>
+      <tags>
+        <tag>laser</tag>
+        <tag>start</tag>
+        <tag>optic</tag>
+      </tags>
+  </entry>
+  <entry>
     <title> Practical Tools</title>
     <url>/2023/06/05/Practical_Tools/</url>
     <content><![CDATA[<h1 id="microsoft-powertoys"><a class="markdownIt-Anchor" href="#microsoft-powertoys"></a> Microsoft PowerToys</h1>
