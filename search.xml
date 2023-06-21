@@ -276,42 +276,6 @@ t_{21}(\beta^2) &amp; t_{22}(\beta^2)
       </tags>
   </entry>
   <entry>
-    <title> Practical Tools</title>
-    <url>/2023/06/05/Practical_Tools/</url>
-    <content><![CDATA[<h1 id="microsoft-powertoys"><a class="markdownIt-Anchor" href="#microsoft-powertoys"></a> Microsoft PowerToys</h1>
-<blockquote>
-<p>Microsoft PowerToys is a set of practical tools that help power users fine-tune and simplify their Windows experience so they can be more productive.</p>
-</blockquote>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://learn.microsoft.com/zh-cn/windows/images/pt-powerrun-demo.gif"
-                      alt="One of the tools: PowerToys Run" 
-                ><figcaption>One of the tools: PowerToys Run</figcaption></figure><br />
-<a class="link"   href="https://learn.microsoft.com/zh-cn/windows/powertoys/" >Microsoft PowerToys | Microsoft Learn <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h1 id="rdp-wrapper"><a class="markdownIt-Anchor" href="#rdp-wrapper"></a> RDP Wrapper</h1>
-<h2 id="what-is-rdp-wrapper"><a class="markdownIt-Anchor" href="#what-is-rdp-wrapper"></a> What is RDP Wrapper</h2>
-<p>Remote Desktop is a convenient tool on Windows. However, if you want to remote link to an other Computer with Home Edition, it is difficult to do so because Microsoft has disabled this feature in this edition (but not delete).</p>
-<blockquote>
-<p>RDP Wrapper works as a layer between Service Control Manager and Terminal Services, so the original <code>termsrv.dll</code> file remains untouched. Also this method is very strong against Windows Update.</p>
-</blockquote>
-<p><a class="link"   href="https://github.com/stascorp/rdpwrap/releases/tag/v1.6.2" >Rdpwarp <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> is a out-of-the-box software to enable Remote Desktop Host on Home Edition.</p>
-<h2 id="what-you-need-to"><a class="markdownIt-Anchor" href="#what-you-need-to"></a> What You Need To</h2>
-<ol>
-<li>Download RDP Wrapper, and run <code>install.bat</code>.</li>
-<li>Update you <code>C:\Program Files\RDP Wrapper\rdpwrap.ini</code>, learn <a class="link"   href="https://zhuanlan.zhihu.com/p/571426752" >more <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>. The latest <code>rdpwrap.ini</code> can be found on GitHub, and <a class="link"   href="https://github.com/sebaxakerhtc/rdpwrap.ini" >here <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> is one.</li>
-<li>Run <code>RDPConf.exe</code> to check whether all are passed.</li>
-<li>All done.</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Tools</category>
-      </categories>
-      <tags>
-        <tag>tools</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Principle of Laser Devices</title>
     <url>/2023/05/12/Principle_of_Laser_Devices/</url>
     <content><![CDATA[<h1 id="introduction-of-laser"><a class="markdownIt-Anchor" href="#introduction-of-laser"></a> Introduction of Laser</h1>
@@ -372,6 +336,62 @@ Thus, device output power efficiency is:</p>
         <tag>laser</tag>
         <tag>start</tag>
         <tag>optic</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title> Practical Tools</title>
+    <url>/2023/06/05/Practical_Tools/</url>
+    <content><![CDATA[<h1 id="microsoft-powertoys"><a class="markdownIt-Anchor" href="#microsoft-powertoys"></a> Microsoft PowerToys</h1>
+<blockquote>
+<p>Microsoft PowerToys is a set of practical tools that help power users fine-tune and simplify their Windows experience so they can be more productive.</p>
+</blockquote>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://learn.microsoft.com/zh-cn/windows/images/pt-powerrun-demo.gif"
+                      alt="One of the tools: PowerToys Run" 
+                ><figcaption>One of the tools: PowerToys Run</figcaption></figure><br />
+<a class="link"   href="https://learn.microsoft.com/zh-cn/windows/powertoys/" >Microsoft PowerToys | Microsoft Learn <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h1 id="rdp-wrapper"><a class="markdownIt-Anchor" href="#rdp-wrapper"></a> RDP Wrapper</h1>
+<h2 id="what-is-rdp-wrapper"><a class="markdownIt-Anchor" href="#what-is-rdp-wrapper"></a> What is RDP Wrapper</h2>
+<p>Remote Desktop is a convenient tool on Windows. However, if you want to remote link to an other Computer with Home Edition, it is difficult to do so because Microsoft has disabled this feature in this edition (but not delete).</p>
+<blockquote>
+<p>RDP Wrapper works as a layer between Service Control Manager and Terminal Services, so the original <code>termsrv.dll</code> file remains untouched. Also this method is very strong against Windows Update.</p>
+</blockquote>
+<p><a class="link"   href="https://github.com/stascorp/rdpwrap/releases/tag/v1.6.2" >Rdpwarp <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> is a out-of-the-box software to enable Remote Desktop Host on Home Edition.</p>
+<h2 id="what-you-need-to"><a class="markdownIt-Anchor" href="#what-you-need-to"></a> What You Need To</h2>
+<ol>
+<li>Download RDP Wrapper, and run <code>install.bat</code>.</li>
+<li>Update you <code>C:\Program Files\RDP Wrapper\rdpwrap.ini</code>, learn <a class="link"   href="https://zhuanlan.zhihu.com/p/571426752" >more <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>. The latest <code>rdpwrap.ini</code> can be found on GitHub, and <a class="link"   href="https://github.com/sebaxakerhtc/rdpwrap.ini" >here <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> is one.</li>
+<li>Run <code>RDPConf.exe</code> to check whether all are passed.</li>
+<li>All done.</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Tools</category>
+      </categories>
+      <tags>
+        <tag>tools</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Manually Managing Metric for IPv4 routes</title>
+    <url>/2023/06/21/Diary/Manually%20Managing%20Metric%20for%20IPv4%20routes/</url>
+    <content><![CDATA[<h1 id="a-metric"><a class="markdownIt-Anchor" href="#a-metric"></a> A Metric</h1>
+<blockquote>
+<p>A metric is a value that’s assigned to an IP route for a particular network interface. It identifies the cost that’s associated with using that route. For example, the metric can be valued in terms of link speed, hop count, or time delay. Automatic Metric is a new feature in Windows that automatically configures the metric for the local routes that are based on link speed. The Automatic Metric feature is enabled by default, and it can also be manually configured to assign a specific metric.</p>
+</blockquote>
+<h1 id="application"><a class="markdownIt-Anchor" href="#application"></a> Application</h1>
+<p>If you have multiple network cards, set them to the same metric value, and then network traffic will be sent from them at the same time.<br />
+For example,</p>
+<div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="built_in">PS</span> C:\Users\these&gt; route print</span><br><span class="line">===========================================================================</span><br><span class="line">接口列表</span><br><span class="line">  <span class="number">5</span>...f8 <span class="number">89</span> <span class="number">3</span>c <span class="number">26</span> e1 cb ......Realtek Gaming <span class="number">2.5</span>GbE Family Controller <span class="comment">#2</span></span><br><span class="line"> <span class="number">18</span>...<span class="number">4</span>c d5 <span class="number">77</span> <span class="number">09</span> <span class="number">39</span> <span class="number">75</span> ......RZ608 Wi<span class="literal">-Fi</span> <span class="number">6</span>E <span class="number">80</span>MHz</span><br><span class="line"> <span class="number">16</span>...<span class="number">00</span> ff <span class="number">8</span>e <span class="number">69</span> b0 <span class="number">2</span>f ......Hillstone Virtual Network Adapter</span><br><span class="line">  <span class="number">7</span>...<span class="number">00</span> e0 <span class="number">4</span>c <span class="number">68</span> <span class="number">01</span> <span class="number">34</span> ......Realtek USB GbE Family Controller</span><br><span class="line"> <span class="number">83</span>...<span class="number">4</span>a <span class="number">8</span>c <span class="number">13</span> <span class="number">5</span>c ad <span class="number">22</span> ......Remote NDIS Compatible Device</span><br><span class="line"> <span class="number">28</span>...<span class="number">00</span> ff f6 <span class="number">94</span> d1 <span class="number">07</span> ......TAP<span class="literal">-Windows</span> Adapter V9</span><br><span class="line"> <span class="number">13</span>...<span class="number">00</span> ff <span class="number">68</span> <span class="number">25</span> <span class="number">80</span> <span class="number">01</span> ......TAP<span class="literal">-Windows</span> Adapter V9 <span class="comment">#2</span></span><br><span class="line"> <span class="number">27</span>...<span class="number">00</span> ff e1 <span class="number">9</span>f <span class="number">7</span>e e9 ......TAP<span class="literal">-Windows</span> Adapter V9 <span class="comment">#3</span></span><br><span class="line"> <span class="number">11</span>...<span class="number">4</span>e d5 <span class="number">77</span> <span class="number">09</span> <span class="number">19</span> <span class="number">55</span> ......Microsoft Wi<span class="literal">-Fi</span> Direct Virtual Adapter</span><br><span class="line">  <span class="number">8</span>...<span class="number">4</span>e d5 <span class="number">77</span> <span class="number">09</span> <span class="number">09</span> <span class="number">45</span> ......Microsoft Wi<span class="literal">-Fi</span> Direct Virtual Adapter <span class="comment">#2</span></span><br><span class="line"> <span class="number">12</span>...<span class="number">00</span> ff <span class="number">65</span> <span class="number">6</span>e <span class="number">6</span>b <span class="number">7</span>b ......Sangfor SSL VPN CS Support System VNIC</span><br><span class="line"> <span class="number">21</span>...<span class="number">4</span>c d5 <span class="number">77</span> <span class="number">09</span> <span class="number">39</span> <span class="number">76</span> ......Bluetooth Device (Personal Area Network)</span><br><span class="line">  <span class="number">1</span>...........................Software Loopback Interface <span class="number">1</span></span><br><span class="line">===========================================================================</span><br><span class="line"></span><br><span class="line">IPv4 路由表</span><br><span class="line">===========================================================================</span><br><span class="line">活动路由:</span><br><span class="line">网络目标        网络掩码          网关       接口   跃点数</span><br><span class="line">          <span class="number">0.0</span>.<span class="number">0.0</span>          <span class="number">0.0</span>.<span class="number">0.0</span>     <span class="number">10.21</span>.<span class="number">57.254</span>      <span class="number">10.21</span>.<span class="number">57.12</span>     <span class="number">27</span></span><br><span class="line">          <span class="number">0.0</span>.<span class="number">0.0</span>          <span class="number">0.0</span>.<span class="number">0.0</span>      <span class="number">10.31</span>.<span class="number">7.254</span>      <span class="number">10.31</span>.<span class="number">4.201</span>     <span class="number">27</span></span><br><span class="line">          <span class="number">0.0</span>.<span class="number">0.0</span>          <span class="number">0.0</span>.<span class="number">0.0</span>  <span class="number">192.168</span>.<span class="number">112.113</span>   <span class="number">192.168</span>.<span class="number">112.20</span>     <span class="number">27</span></span><br></pre></td></tr></table></figure></div>
+<p>Then, you can get faster internet speed in special situations.</p>
+]]></content>
+      <categories>
+        <category>Tools</category>
+      </categories>
+      <tags>
+        <tag>tools</tag>
       </tags>
   </entry>
   <entry>
