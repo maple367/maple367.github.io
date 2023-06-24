@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>Fix Update Time Wrong in Hexo</title>
-    <url>/2023/05/15/Diary/Fix_Update_Time_Wrong_in_Hexo/</url>
+    <url>/Tools/Website/fix-update-time-wrong-in-hexo</url>
     <content><![CDATA[<h1 id="problem"><a class="markdownIt-Anchor" href="#problem"></a> Problem</h1>
 <p>It is convenient to use <a class="link"   href="https://docs.github.com/en/actions" >GitHub Actions <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> to deploy GitHub Pages. As given by <a class="link"   href="https://hexo.io/docs/github-pages.html" >Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> officially,</p>
 <details class="green" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>Official script </summary>
@@ -30,7 +30,7 @@ So, the complete script for me is:</p>
   </entry>
   <entry>
     <title>Gitalk</title>
-    <url>/2023/05/14/Diary/Gitalk/</url>
+    <url>/Tools/Website/gitalk</url>
     <content><![CDATA[<h1 id="problem"><a class="markdownIt-Anchor" href="#problem"></a> Problem</h1>
 <p>Deploy gitalk is very easy in Hexo, but I get in a stupid mistake. After login in GitHub, the web page redirect to home page and raise “mismatch redirect URL”.</p>
 <h1 id="solution"><a class="markdownIt-Anchor" href="#solution"></a> Solution</h1>
@@ -46,7 +46,7 @@ So, the complete script for me is:</p>
   </entry>
   <entry>
     <title>Manually Managing Metric for IPv4 routes</title>
-    <url>/2023/06/21/Diary/Manually%20Managing%20Metric%20for%20IPv4%20routes/</url>
+    <url>/Tools/manually-managing-metric-for-ipv4-routes</url>
     <content><![CDATA[<h1 id="a-metric"><a class="markdownIt-Anchor" href="#a-metric"></a> A Metric</h1>
 <blockquote>
 <p>A metric is a value that’s assigned to an IP route for a particular network interface. It identifies the cost that’s associated with using that route. For example, the metric can be valued in terms of link speed, hop count, or time delay. Automatic Metric is a new feature in Windows that automatically configures the metric for the local routes that are based on link speed. The Automatic Metric feature is enabled by default, and it can also be manually configured to assign a specific metric.</p>
@@ -66,7 +66,7 @@ For example,</p>
   </entry>
   <entry>
     <title> Practical Tools</title>
-    <url>/2023/06/05/Diary/Practical_Tools/</url>
+    <url>/Tools/practical-tools</url>
     <content><![CDATA[<h1 id="microsoft-powertoys"><a class="markdownIt-Anchor" href="#microsoft-powertoys"></a> Microsoft PowerToys</h1>
 <blockquote>
 <p>Microsoft PowerToys is a set of practical tools that help power users fine-tune and simplify their Windows experience so they can be more productive.</p>
@@ -102,7 +102,7 @@ For example,</p>
   </entry>
   <entry>
     <title>Gain and Loss in Waveguides</title>
-    <url>/2023/05/15/Optics/Gain_and_Loss_in_Waveguides/</url>
+    <url>/Principle-of-Lasers/gain-and-loss-in-waveguides</url>
     <content><![CDATA[<h1 id="gain-and-loss"><a class="markdownIt-Anchor" href="#gain-and-loss"></a> Gain and Loss</h1>
 <p>When light propagates in a gain waveguide, its intensity changes with distance as:</p>
 <p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>I</mi><mo>=</mo><msub><mi>I</mi><mn>0</mn></msub><mi>exp</mi><mo>⁡</mo><mo stretchy="false">(</mo><mi>G</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">I = I_0 \exp(G) 
@@ -154,7 +154,7 @@ However, in P-I-N diode, not all injected electrons or photons participant in lu
   </entry>
   <entry>
     <title>Multiple Quantum Well</title>
-    <url>/2023/05/14/Optics/Multiple_Quantum_Well/</url>
+    <url>/Principle-of-Lasers/multiple-quantum-well</url>
     <content><![CDATA[<h1 id="multiple-quantum-well"><a class="markdownIt-Anchor" href="#multiple-quantum-well"></a> Multiple Quantum Well</h1>
 <blockquote>
 <p>A quantum well is a potential well with only discrete energy values.</p>
@@ -199,7 +199,7 @@ Due to quantum effect, <strong>in simplified model</strong>, the optical absorpt
   </entry>
   <entry>
     <title>Planar Slab Waveguide</title>
-    <url>/2023/06/07/Optics/Planar_Slab_Waveguide/</url>
+    <url>/Optics/planar-slab-waveguide</url>
     <content><![CDATA[<h1 id="three-layer-planar-slab-waveguide"><a class="markdownIt-Anchor" href="#three-layer-planar-slab-waveguide"></a> Three-layer Planar Slab Waveguide</h1>
 <p><figure class="image-caption"><img  
                      lazyload
@@ -333,7 +333,7 @@ t_{21}(\beta^2) &amp; t_{22}(\beta^2)
   </entry>
   <entry>
     <title>Principle of Laser Devices</title>
-    <url>/2023/05/12/Optics/Principle_of_Laser_Devices/</url>
+    <url>/Principle-of-Lasers/principle-of-laser-devices</url>
     <content><![CDATA[<h1 id="introduction-of-laser"><a class="markdownIt-Anchor" href="#introduction-of-laser"></a> Introduction of Laser</h1>
 <p><img  
                      lazyload
@@ -396,7 +396,7 @@ Thus, device output power efficiency is:</p>
   </entry>
   <entry>
     <title>Three-Dimensional Coupled-Wave Theory in Photonic Crystal</title>
-    <url>/2023/05/19/Optics/Three_Dimensional_Coupled_Wave_Theory_in_Photonic_Crystal/</url>
+    <url>/Photonic-crystal/three-dimensional-coupled-wave-theory-in-photonic-crystal</url>
     <content><![CDATA[<h1 id="coupled-wave-theory"><a class="markdownIt-Anchor" href="#coupled-wave-theory"></a> Coupled-Wave Theory</h1>
 <p>Photonic crystal surface-emitting lasers (PCSELs) can realize  one-chip, ultra-large-area, coherent semiconductor lasers. However, it is difficult to accurately evaluate the characterization of PCSELs by traditional simulation method  such as FDTD or FEM etc. because of ultra-large computation. Thus, the coupled-wave theory (CWT), which is a semi-analytic computational method, is proposed by research group of Susumu Noda from Kyoto University.<br />
 The coupled-wave theory in PCSELs traces its history back to 2006 (Ref. 1), and is expanded to three dimension by incorporating the surface emission and high-order coupling effects (Ref. 2). 3D-CWT has been fully explained in the doctoral thesis of Yong LIANG (Ref. 3) and been redefined the coupled matrix by Takuya Inoue (Ref. 4).<br />
