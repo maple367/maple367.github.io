@@ -101,6 +101,55 @@ For example,</p>
       </tags>
   </entry>
   <entry>
+    <title>GPU Accelerating Computing Powered By PyTorch-DirectML On AMD Graphics Card</title>
+    <url>/Numerical-Analysis/gpu-accelerating-computing-powered-by-pytorch-directml-on-amd-graphics-card/</url>
+    <content><![CDATA[<h1 id="environment"><a class="markdownIt-Anchor" href="#environment"></a> Environment</h1>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">CPU</th>
+<th style="text-align:center">GPU</th>
+<th style="text-align:center">System</th>
+<th style="text-align:center">Python</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">R7 7800X3D</td>
+<td style="text-align:center">RX 6650XT</td>
+<td style="text-align:center">WSL2</td>
+<td style="text-align:center">3.8.16</td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">Linux 5.15.90.1-microsoft-standard-WSL2 x86_64</td>
+<td style="text-align:center">conda 22.9.0</td>
+</tr>
+<tr>
+<td style="text-align:center">Ensure you have the latest GPU driver installed.</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<h1 id="install"><a class="markdownIt-Anchor" href="#install"></a> Install</h1>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">pip install torch-directml</span><br><span class="line">conda install pytorch cpuonly -c pytorch</span><br><span class="line">conda install numpy pandas tensorboard matplotlib tqdm pyyaml -y</span><br><span class="line">pip install opencv-python</span><br><span class="line">pip install wget</span><br><span class="line">pip install torchvision</span><br></pre></td></tr></table></figure></div>
+<h1 id="test"><a class="markdownIt-Anchor" href="#test"></a> Test</h1>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> torch</span><br><span class="line"><span class="keyword">import</span> torch_directml</span><br><span class="line"></span><br><span class="line">torch.set_default_device(torch_directml.device(<span class="number">1</span>)) <span class="comment"># Select the second Graphics Card because device(0) is APU of R7 7800X3D</span></span><br><span class="line"></span><br><span class="line">x = torch.tensor(<span class="number">1.2</span>)</span><br><span class="line">a1 = torch.tensor(<span class="number">2.3</span>, requires_grad=<span class="literal">True</span>)</span><br><span class="line">b1 = torch.tensor(<span class="number">1.3</span>)</span><br><span class="line">y1 = x * a1 + b1</span><br><span class="line"> </span><br><span class="line">a2 = torch.tensor(<span class="number">2.2</span>)</span><br><span class="line">b2 = torch.tensor(<span class="number">1.4</span>)</span><br><span class="line">y2 = y1 * a2 + b2</span><br><span class="line"></span><br><span class="line">a3 = torch.tensor(<span class="number">1.1</span>)</span><br><span class="line">b3 = torch.tensor(<span class="number">2.2</span>)</span><br><span class="line">y3 = y2 * a3 + b3 </span><br><span class="line"> </span><br><span class="line"></span><br><span class="line"><span class="comment"># PyTorch autograd derivation follow chain law</span></span><br><span class="line"><span class="comment"># dy2_dw1 = torch.autograd.grad(y2, [w1], retain_graph=True)</span></span><br><span class="line"><span class="comment"># print(dy2_dw1[0])</span></span><br><span class="line"> </span><br><span class="line"><span class="comment"># Manually derivation</span></span><br><span class="line">dy3_dy2 = torch.autograd.grad(y3, [y1], retain_graph=<span class="literal">True</span>)</span><br><span class="line">dy2_dy1 = torch.autograd.grad(y2, [y1], retain_graph=<span class="literal">True</span>)</span><br><span class="line">dy1_dw1 = torch.autograd.grad(y1, [a1], retain_graph=<span class="literal">True</span>)</span><br><span class="line"><span class="built_in">print</span>(dy3_dy2[<span class="number">0</span>] * dy2_dy1[<span class="number">0</span>] * dy1_dw1[<span class="number">0</span>])</span><br></pre></td></tr></table></figure></div>
+<h1 id="other-samples"><a class="markdownIt-Anchor" href="#other-samples"></a> Other Samples</h1>
+<p>Check out the <a class="link"   href="https://github.com/microsoft/DirectML/tree/master/PyTorch" >official sample <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> to get started.</p>
+]]></content>
+      <categories>
+        <category>Numerical Analysis</category>
+      </categories>
+      <tags>
+        <tag>machine learning</tag>
+        <tag>computing</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>The staggered finite-difference method</title>
     <url>/Numerical-Analysis/the-staggered-finite-difference-method/</url>
     <content><![CDATA[<h1 id="one-dimension-problem"><a class="markdownIt-Anchor" href="#one-dimension-problem"></a> One-dimension Problem</h1>
@@ -416,7 +465,7 @@ Thus, device output power efficiency is:</p>
   </entry>
   <entry>
     <title>Three-Dimensional Coupled-Wave Theory in Photonic Crystal</title>
-    <url>/Photonic-crystal/three-dimensional-coupled-wave-theory-in-photonic-crystal/</url>
+    <url>/Photonic-Crystal/three-dimensional-coupled-wave-theory-in-photonic-crystal/</url>
     <content><![CDATA[<h1 id="coupled-wave-theory"><a class="markdownIt-Anchor" href="#coupled-wave-theory"></a> Coupled-Wave Theory</h1>
 <p>Photonic crystal surface-emitting lasers (PCSELs) can realize  one-chip, ultra-large-area, coherent semiconductor lasers. However, it is difficult to accurately evaluate the characterization of PCSELs by traditional simulation method  such as FDTD or FEM etc. because of ultra-large computation. Thus, the coupled-wave theory (CWT), which is a semi-analytic computational method, is proposed by research group of Susumu Noda from Kyoto University.<br />
 The coupled-wave theory in PCSELs traces its history back to 2006 (Ref. 1), and is expanded to three dimension by incorporating the surface emission and high-order coupling effects (Ref. 2). 3D-CWT has been fully explained in the doctoral thesis of Yong LIANG (Ref. 3) and been redefined the coupled matrix by Takuya Inoue (Ref. 4).<br />
@@ -756,7 +805,7 @@ c-16-25.333-24-45-24-59z'/></svg></span></span></span></span></span></span></spa
 </ol>
 ]]></content>
       <categories>
-        <category>Photonic crystal</category>
+        <category>Photonic Crystal</category>
       </categories>
       <tags>
         <tag>laser</tag>
