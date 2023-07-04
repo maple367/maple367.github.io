@@ -126,14 +126,9 @@ For example,</p>
 <td style="text-align:center">Linux 5.15.90.1-microsoft-standard-WSL2 x86_64</td>
 <td style="text-align:center">conda 22.9.0</td>
 </tr>
-<tr>
-<td style="text-align:center">Ensure you have the latest GPU driver installed.</td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-</tr>
 </tbody>
 </table>
+<p>Ensure you have the latest GPU driver installed.</p>
 <h1 id="install"><a class="markdownIt-Anchor" href="#install"></a> Install</h1>
 <div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">pip install torch-directml</span><br><span class="line">conda install pytorch cpuonly -c pytorch</span><br><span class="line">conda install numpy pandas tensorboard matplotlib tqdm pyyaml -y</span><br><span class="line">pip install opencv-python</span><br><span class="line">pip install wget</span><br><span class="line">pip install torchvision</span><br></pre></td></tr></table></figure></div>
 <h1 id="test"><a class="markdownIt-Anchor" href="#test"></a> Test</h1>
