@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <title>正在跳转到中文翻译…</title>
+  <meta name="robots" content="noindex, nofollow, noarchive" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var origin = window.location.origin;
+      var requested = new URLSearchParams(window.location.search).get("url") || "/";
+      var original = new URL("/", origin);
+
+      // Accept only a same-site path; never translate the redirect page itself.
+      try {
+        if (requested.charAt(0) === "/" && requested.charAt(1) !== "/") {
+          var candidate = new URL(requested, origin);
+          if (candidate.origin === origin && !/^\/cn(?:\/|$)/.test(candidate.pathname)) {
+            original = candidate;
+          }
+        }
+      } catch (error) {
+        // Invalid targets fall back to the blog homepage.
+      }
+
+      var gt = new URL("https://translate.google.com/translate");
+      gt.searchParams.set("hl", "zh-CN");
+      gt.searchParams.set("sl", "auto");
+      gt.searchParams.set("tl", "zh-CN");
+      gt.searchParams.set("u", original.href);
+      document.getElementById("translation-link").href = gt.href;
+      window.location.replace(gt.href);
+    });
+  </script>
+</head>
+<body style="font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;padding:2rem">
+  <h1>正在跳转到中文翻译…</h1>
+  <p>如未跳转，请<a class="link"  id="translation-link"  href="https://translate.google.com/translate?sl=auto&amp;tl=zh-CN&amp;hl=zh-CN&amp;u=https%3A%2F%2Fwww.maple367.eu.org%2F" >点击这里继续<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>，或<a href="/">返回首页</a>。</p>
+  <noscript><p>请启用 JavaScript 以翻译指定文章；上面的链接可翻译博客首页。</p></noscript>
+</body>
+</html>
